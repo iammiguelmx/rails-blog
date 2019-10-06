@@ -1,3 +1,67 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffcc;
+}
+
+.button {
+    background-color: #ccffcc; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+ table {     
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 12px;    
+    margin: 45px;     
+    width: 480px; 
+    text-align: left;    
+    border-collapse: collapse; }
+
+th {     
+    font-size: 13px;     
+    font-weight: normal;     
+    padding: 8px;     
+    background: #b9c9fe;
+    border-top: 4px solid #aabcfe;    
+    border-bottom: 1px solid #fff; 
+    color: #039; 
+}
+
+td {    
+    padding: 8px;     
+    background: #e8edff;     
+    border-bottom: 1px solid #fff;
+    color: #669;    
+    border-top: 1px solid transparent; 
+}
+
+tr:hover td { 
+    background: #d0dafd; 
+    color: #339; 
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+textarea {
+    border: 1px solid #888; 
+}
+
+a {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: blue;
+}
